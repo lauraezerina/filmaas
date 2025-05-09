@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}{{product.name}} - Dream Fluff{% endblock %}
+{% block content %}
+<div class="products-show">
+    <img src="{{ url_for('static', filename='images/products/' ~ product['image']) }}" alt="{{ product['name'] }}">
+    <div>
+        <h2>{{product["name"]}}</h2>
+        <p>{{product["ipasiba"]}}</p>
+        <p>Cena: {{product["price"]}} €</p>
+        <a href="{{ url_for('pievienot_atsauksmi', product_id=product['id']) }}">➕ Pievienot atsauksmi</a>
+
+    </div>
+</div>
+{% endblock %}

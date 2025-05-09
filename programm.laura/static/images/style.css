@@ -1,0 +1,64 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff9f4;
+    color: #4d4d4d;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #ffdce0;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #6b4c4c;
+}
+nav {
+    background-color: #e8eaf6;
+    padding: 0.5rem;
+    text-align: center;
+}
+nav a {
+    color: #5a5a89;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fffdfb;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.product-card {
+    background-color: #ffeef2;
+    border: 1px solid #f8cdd1;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+.product-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+button, .button {
+    background-color: #cce3dc;
+    color: #4d4d4d;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+button:hover, .button:hover {
+    background-color: #a7d2c5;
+}
